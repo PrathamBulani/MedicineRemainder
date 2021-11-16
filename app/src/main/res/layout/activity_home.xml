@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    style="@style/AppTheme"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <ImageView
+        android:id="@+id/medicine_image"
+        android:layout_width="371dp"
+        android:layout_height="477dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/medicine"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="127dp"
+        android:contentDescription="@string/spash_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/medicine_image"
+        android:layout_marginStart="170dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="@string/caring_healths"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

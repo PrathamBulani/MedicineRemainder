@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MedRem</string>
+    <string name="caring_healths">Caring Healths...</string>
+    <string name="spash_image">spash Image</string>
+</resources>
